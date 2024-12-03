@@ -3,6 +3,11 @@ local options = {
     lua = { "stylua" },
     -- css = { "prettier" },
     -- html = { "prettier" },
+    python = {"autopep8"},
+    typescript = {"prettier"},
+    c = {"clang_format"},
+    haskell = {"formolu"},
+    bash = {"beautysh"}
   },
 
   -- format_on_save = {
